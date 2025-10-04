@@ -1,0 +1,67 @@
+# Base System
+systemd
+systemd-sysv
+udev
+dbus
+sudo
+curl
+wget
+nano
+vim-tiny
+
+# Kernel and Boot
+linux-image-amd64
+initramfs-tools
+grub-pc
+grub-efi-amd64
+efibootmgr
+
+# Networking
+net-tools
+iproute2
+iptables
+ipset
+nftables
+conntrack
+netfilter-persistent
+iptables-persistent
+ifupdown
+network-manager
+
+# Firewall Specific
+firewalld
+ulogd2
+fail2ban
+tcpdump
+wireshark-common
+nmap
+ssh
+openssh-server
+
+# System Utilities
+htop
+iotop
+dnsutils
+traceroute
+ethtool
+pciutils
+usbutils
+lshw
+lsblk
+parted
+gdisk
+e2fsprogs
+dosfstools
+ntfs-3g
+
+# Monitoring
+sysstat
+lm-sensors
+smartmontools
+logwatch
+
+# Development (for building)
+build-essential
+devscripts
+debhelper
+git
