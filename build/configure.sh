@@ -26,9 +26,6 @@ LIVE_PACKAGES="grub-pc linux-image-amd64 live-boot"
 echo "deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware" > /etc/apt/sources.list
 echo "deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware" >> /etc/apt/sources.list
 echo "deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware" >> /etc/apt/sources.list
-#deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware > /etc/apt/sources.list
-#deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware >> /etc/apt/sources.list
-#deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware >> /etc/apt/sources.list
 
 # Update package lists
 apt update
